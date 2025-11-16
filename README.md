@@ -259,8 +259,8 @@ teste_facul/
 
 1. **Clone o repositório:**
    ```bash
-   git clone <url-do-repositorio>
-   cd teste_facul
+   git clone https://github.com/drdosan/consolidacao_do_sistema/
+   cd consolidacao_do_sistema
    ```
 
 2. **Instale as dependências da Fase 7 (sistema integrado):**
