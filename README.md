@@ -204,7 +204,7 @@ teste_facul/
 - Monitoramento automático
 - Documentação completa
 
-📁 [Ver Fase 7](./fase7/README.md) | 🎥 [https://youtu.be/-6ii1At-Q8o](https://youtu.be/-6ii1At-Q8o)*
+📁 [Ver Fase 7](./fase7/README.md) | 🎥 [Vídeo Fase 7](https://youtu.be/-6ii1At-Q8o)*
 
 ---
 
@@ -389,7 +389,7 @@ Cada fase possui sua própria documentação detalhada:
 | Fase 4 | IoT, Dashboard e ML (Versão Completa) | [YouTube](https://youtu.be/KEdM_Xw_xbk) |
 | Fase 5 | Cloud Computing | [YouTube](https://youtu.be/Wqqj1hWZ_P4) |
 | Fase 6 | Visão Computacional | [YouTube](https://youtu.be/pQkJcPUKa4c) |
-| Fase 7 | Consolidação | [A ser adicionado] |
+| Fase 7 | Consolidação | [Youtube](https://youtu.be/-6ii1At-Q8o) |
 
 ---
 
