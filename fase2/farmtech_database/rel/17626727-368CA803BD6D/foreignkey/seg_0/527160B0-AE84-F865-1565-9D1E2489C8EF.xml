@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="527160B0-AE84-F865-1565-9D1E2489C8EF" containerWithKeyObject="15D75B28-46BC-1EDA-B81A-1A60ADBEC8B7" localFKIndex="085E7CED-D580-132A-D51C-6AD2B14D65DD" name="APLICACAO_NUTRIENTE_NUTRIENTE_FK">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-04-17 01:41:19 UTC</createdTime>
+<generatorID>C8E6AAEC-3307-5B6E-30AC-D486992060D2</generatorID>
+<ownerDesignName>farmtech_database</ownerDesignName>
+<referredTableLongName>NUTRIENTE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7C031BEC-1646-E031-A0F0-F4B74D253C64</referredTableID>
+<keyObject>9954B10B-BBFD-E462-F7A8-DCB521896903</keyObject>
+<referredKeyID>9954B10B-BBFD-E462-F7A8-DCB521896903</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cd_nutriente</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

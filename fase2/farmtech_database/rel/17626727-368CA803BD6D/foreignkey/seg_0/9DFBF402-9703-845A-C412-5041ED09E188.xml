@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="9DFBF402-9703-845A-C412-5041ED09E188" containerWithKeyObject="53DB1BA2-6B0F-0E67-5F34-9C4522C92AC2" localFKIndex="AE4D54B3-BDD4-8FE9-12A6-DA29D3DE6B3D" name="CULTURA_PRODUTOR_FK">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-04-17 01:41:19 UTC</createdTime>
+<generatorID>24F63FB0-DA19-4FD6-A295-7F059F7B191E</generatorID>
+<ownerDesignName>farmtech_database</ownerDesignName>
+<referredTableLongName>PRODUTOR</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E5AC4919-00C5-1248-026D-571C02697584</referredTableID>
+<keyObject>C20B900A-6C8A-EDED-CDE0-3101276A0845</keyObject>
+<referredKeyID>C20B900A-6C8A-EDED-CDE0-3101276A0845</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cd_produtor</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

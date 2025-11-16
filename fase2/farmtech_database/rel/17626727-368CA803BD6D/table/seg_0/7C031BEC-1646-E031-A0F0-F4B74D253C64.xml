@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7C031BEC-1646-E031-A0F0-F4B74D253C64" name="NUTRIENTE">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-04-17 01:41:19 UTC</createdTime>
+<generatorID>26B8FC99-4509-AA29-AD0E-98C97A8CB14F</generatorID>
+<ownerDesignName>farmtech_database</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_nutriente" id="DC5E984E-B012-8F75-40A7-7C34DAF710A2">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-04-17 01:41:19 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador único do nutriente]]></commentInRDBMS>
+<generatorID>591AE53F-D8DA-6120-384A-7692BBE58DDF</generatorID>
+<ownerDesignName>farmtech_database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome" id="7D5878E9-EA40-C593-1D62-7329179EF27C">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-04-17 01:41:19 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nome do nutriente]]></commentInRDBMS>
+<generatorID>36072E2F-2DFA-F651-7CEA-7991FE9E28C6</generatorID>
+<ownerDesignName>farmtech_database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>55</dataTypeSize>
+<ownDataTypeParameters>55,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9954B10B-BBFD-E462-F7A8-DCB521896903" name="NUTRIENTE_PK">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-04-17 01:41:19 UTC</createdTime>
+<generatorID>DBAA8A0A-848F-D33A-863C-9D761EC7354A</generatorID>
+<ownerDesignName>farmtech_database</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DC5E984E-B012-8F75-40A7-7C34DAF710A2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

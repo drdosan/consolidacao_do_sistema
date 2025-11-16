@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relaçao Sensor Instalado / Leitura" directorySegmentName="seg_0" id="830D0FBA-726E-1F90-A456-0A439070C69A">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-04-17 00:45:33 UTC</createdTime>
+<ownerDesignName>farmtech_database</ownerDesignName>
+<engineerTo>
+<item key="17626727-FDDC-DB0C-18E0-368CA803BD6D" value="true"/>
+</engineerTo>
+<sourcePk>2629E505-1874-3EE8-E4C1-C9B8069A1069</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>464E7B5F-1A6A-3E1D-551B-7667A5A37CBB</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>32C75EFE-CFDA-2C23-9792-56D6B5552EC2</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

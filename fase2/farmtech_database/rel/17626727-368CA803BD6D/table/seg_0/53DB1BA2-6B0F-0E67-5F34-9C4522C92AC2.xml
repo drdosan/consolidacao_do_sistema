@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="53DB1BA2-6B0F-0E67-5F34-9C4522C92AC2" name="CULTURA">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-04-17 01:41:19 UTC</createdTime>
+<generatorID>1E40E23D-D63E-7899-E15C-6E9D7D88BD61</generatorID>
+<ownerDesignName>farmtech_database</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_cultura" id="BD09C47F-1A9F-E25C-A4C2-92C52D8C6A26">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-04-17 01:41:19 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador única da cultura]]></commentInRDBMS>
+<generatorID>2E1D1837-D642-3994-BAF2-39470A91BC8E</generatorID>
+<ownerDesignName>farmtech_database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRODUTOR_cd_produtor" id="57099432-3ED9-B721-27E8-C4485D1C8ECD">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-04-17 01:41:19 UTC</createdTime>
+<generatorID>97C0B9FF-EFC4-6445-51D1-D59C23167E66</generatorID>
+<ownerDesignName>farmtech_database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9DFBF402-9703-845A-C412-5041ED09E188" referredColumn="AE6717B2-0B45-130B-D701-792B4D9BDBF3"/>
+</associations>
+</Column>
+<Column name="nome" id="0499379A-17EA-F13D-1CAE-5FD37EE0F905">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-04-17 01:41:19 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nome da Cultura]]></commentInRDBMS>
+<generatorID>64797471-6C59-E839-1C5A-602777AF04D3</generatorID>
+<ownerDesignName>farmtech_database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>55</dataTypeSize>
+<ownDataTypeParameters>55,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo" id="06643C9E-B809-35EF-0D22-0E491984CAA9">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-04-17 01:41:19 UTC</createdTime>
+<commentInRDBMS><![CDATA[Tipo da cultura]]></commentInRDBMS>
+<generatorID>419F87B6-20B3-C80F-85CF-EBE06F515176</generatorID>
+<ownerDesignName>farmtech_database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>55</dataTypeSize>
+<ownDataTypeParameters>55,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8E6B7774-35FD-8C5D-FF00-289B5589C02F" name="CULTURA_PK">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-04-17 01:41:19 UTC</createdTime>
+<generatorID>64D352F5-8DDF-0031-1B1B-313208EFF2E7</generatorID>
+<ownerDesignName>farmtech_database</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BD09C47F-1A9F-E25C-A4C2-92C52D8C6A26"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AE4D54B3-BDD4-8FE9-12A6-DA29D3DE6B3D" name="CULTURA_PRODUTOR_FK">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-04-17 01:41:19 UTC</createdTime>
+<generatorID>24F63FB0-DA19-4FD6-A295-7F059F7B191E</generatorID>
+<ownerDesignName>farmtech_database</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="57099432-3ED9-B721-27E8-C4485D1C8ECD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

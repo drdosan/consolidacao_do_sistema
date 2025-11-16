@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relação Nutriente / Aplicação Recurso" directorySegmentName="seg_0" id="C8E6AAEC-3307-5B6E-30AC-D486992060D2">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-04-17 01:39:49 UTC</createdTime>
+<ownerDesignName>farmtech_database</ownerDesignName>
+<engineerTo>
+<item key="17626727-FDDC-DB0C-18E0-368CA803BD6D" value="true"/>
+</engineerTo>
+<sourcePk>DBAA8A0A-848F-D33A-863C-9D761EC7354A</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>26B8FC99-4509-AA29-AD0E-98C97A8CB14F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>12090240-840A-64FE-1CEF-496475DCA81E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

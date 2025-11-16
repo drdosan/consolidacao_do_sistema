@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="8C12CD44-816D-66BF-C29A-B81147F3D86A">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-04-16 10:57:51 UTC</createdTime>
+<ownerDesignName>farmtech_database</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

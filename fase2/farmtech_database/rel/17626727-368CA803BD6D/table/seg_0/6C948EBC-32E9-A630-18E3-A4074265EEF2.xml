@@ -1,0 +1,128 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6C948EBC-32E9-A630-18E3-A4074265EEF2" name="LEITURA_SENSOR">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-04-17 01:41:19 UTC</createdTime>
+<generatorID>32C75EFE-CFDA-2C23-9792-56D6B5552EC2</generatorID>
+<ownerDesignName>farmtech_database</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_leitura" id="750F7AC2-E96F-7D91-65A7-35120D0A31E1">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-04-17 01:41:19 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador único da leitura]]></commentInRDBMS>
+<generatorID>40C12E02-D958-3493-49D7-05C2FF7C6DCF</generatorID>
+<ownerDesignName>farmtech_database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SENSOR_INSTALADO_cd_sensor_instalado" id="06644947-3253-B29D-AD3D-4D8073247DCC">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-04-17 01:41:19 UTC</createdTime>
+<generatorID>D372E571-C0C2-482E-4D5B-C408E22C80F7</generatorID>
+<ownerDesignName>farmtech_database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9D84D1D6-2570-9052-0956-E11A2B20C9DC" referredColumn="75112D54-0AD3-5F12-D81A-3C1FE243427A"/>
+</associations>
+</Column>
+<Column name="data_hora" id="5F847D13-D4AA-7F0A-A581-9058B3505836">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-04-17 01:41:19 UTC</createdTime>
+<commentInRDBMS><![CDATA[Data e hora da Leitura]]></commentInRDBMS>
+<generatorID>744FC6E1-027A-3D35-9F78-C3D33F66D345</generatorID>
+<ownerDesignName>farmtech_database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="valor_umidade" id="EE538878-9B1E-9660-E61E-E5446E4EFD23">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-04-17 01:41:19 UTC</createdTime>
+<commentInRDBMS><![CDATA[Valor da Umidade da leitura]]></commentInRDBMS>
+<generatorID>F531A177-B423-4AE9-5C1F-8C6BFF7D208D</generatorID>
+<ownerDesignName>farmtech_database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="valor_ph" id="4500E730-FFD4-ECBA-7ABB-1CE475EF1E9A">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-04-17 01:41:19 UTC</createdTime>
+<commentInRDBMS><![CDATA[Valor do PH da leitura]]></commentInRDBMS>
+<generatorID>450107DD-717F-8A23-4765-50ED92AFDC0D</generatorID>
+<ownerDesignName>farmtech_database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="valor_fosforo" id="DC38D175-4864-43C4-860B-67F2CC8F4E6C">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-04-17 01:41:19 UTC</createdTime>
+<commentInRDBMS><![CDATA[Valor do fósforo da leitura]]></commentInRDBMS>
+<generatorID>E915F71B-71F2-75FD-B760-6C1D17F4892B</generatorID>
+<ownerDesignName>farmtech_database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="valor_potassio" id="6D38B607-BE46-1A76-CCF0-70F3922ED036">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-04-17 01:41:19 UTC</createdTime>
+<commentInRDBMS><![CDATA[Valor do potássio da leitura]]></commentInRDBMS>
+<generatorID>9C9E271D-EECC-7B4F-1C8F-E38755569EBD</generatorID>
+<ownerDesignName>farmtech_database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C4908252-F734-FB79-B875-AB08873BD060" name="LEITURA_SENSOR_PK">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-04-17 01:41:19 UTC</createdTime>
+<generatorID>33BA9644-FE5F-E085-5B10-B817D5C7CA79</generatorID>
+<ownerDesignName>farmtech_database</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="750F7AC2-E96F-7D91-65A7-35120D0A31E1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="537E171F-7B33-F920-C3FF-0499C9D19BA3" name="LEITURA_SENSOR_SENSOR_INSTALADO_FK">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-04-17 01:41:19 UTC</createdTime>
+<generatorID>830D0FBA-726E-1F90-A456-0A439070C69A</generatorID>
+<ownerDesignName>farmtech_database</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="06644947-3253-B29D-AD3D-4D8073247DCC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

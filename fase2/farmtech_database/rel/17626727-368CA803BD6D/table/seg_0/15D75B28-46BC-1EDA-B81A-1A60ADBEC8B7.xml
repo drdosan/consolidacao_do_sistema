@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="15D75B28-46BC-1EDA-B81A-1A60ADBEC8B7" name="APLICACAO_NUTRIENTE">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-04-17 01:41:19 UTC</createdTime>
+<generatorID>12090240-840A-64FE-1CEF-496475DCA81E</generatorID>
+<ownerDesignName>farmtech_database</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_aplicacao_nutriente" id="4AADBF03-B4D4-A700-558A-9825B88D1E53">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-04-17 01:41:19 UTC</createdTime>
+<generatorID>448C0A57-C1C0-92CD-6F1C-BD8F40B905AB</generatorID>
+<ownerDesignName>farmtech_database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="APLICACAO_RECURSO_cd_aplicacao" id="71667C4C-A5BB-EB37-9D52-EA94AE7BFB56">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-04-17 01:41:19 UTC</createdTime>
+<generatorID>D00910FE-7318-DF92-1D39-93F4A9FEAD7F</generatorID>
+<ownerDesignName>farmtech_database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3FB81A46-FE97-AA9E-A47A-52184800A15A" referredColumn="9560BD77-608D-3074-54BC-BA6C0FCB5C03"/>
+</associations>
+</Column>
+<Column name="NUTRIENTE_cd_nutriente" id="FB3181F7-B9EF-486D-A99F-C0BD403D3137">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-04-17 01:41:19 UTC</createdTime>
+<generatorID>1EE07B78-3C92-0307-1CE6-6A1679369BB2</generatorID>
+<ownerDesignName>farmtech_database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="527160B0-AE84-F865-1565-9D1E2489C8EF" referredColumn="DC5E984E-B012-8F75-40A7-7C34DAF710A2"/>
+</associations>
+</Column>
+<Column name="qtd" id="ACF53E28-62E9-8A7A-5FD1-89CBC08814AE">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-04-17 01:41:19 UTC</createdTime>
+<commentInRDBMS><![CDATA[Quantidade da aplicação]]></commentInRDBMS>
+<generatorID>25E5E17A-B287-1A79-C9F6-CDABA97C86AC</generatorID>
+<ownerDesignName>farmtech_database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="998EA91A-20B7-1BE6-4D17-6EDF098F5B76" name="APLICACAO_NUTRIENTE_PK">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-04-17 01:41:19 UTC</createdTime>
+<generatorID>E0481713-3738-968A-8C08-771AA517147E</generatorID>
+<ownerDesignName>farmtech_database</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4AADBF03-B4D4-A700-558A-9825B88D1E53"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4FAA739D-0319-9B83-11AD-C7D8925E18E0" name="APLICACAO_NUTRIENTE_APLICACAO_RECURSO_FK">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-04-17 01:41:19 UTC</createdTime>
+<generatorID>00DB6152-FBAC-0E16-CC5C-EF077DD33376</generatorID>
+<ownerDesignName>farmtech_database</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="71667C4C-A5BB-EB37-9D52-EA94AE7BFB56"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="085E7CED-D580-132A-D51C-6AD2B14D65DD" name="APLICACAO_NUTRIENTE_NUTRIENTE_FK">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-04-17 01:41:19 UTC</createdTime>
+<generatorID>C8E6AAEC-3307-5B6E-30AC-D486992060D2</generatorID>
+<ownerDesignName>farmtech_database</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FB3181F7-B9EF-486D-A99F-C0BD403D3137"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

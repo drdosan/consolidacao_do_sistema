@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="3FB81A46-FE97-AA9E-A47A-52184800A15A" containerWithKeyObject="15D75B28-46BC-1EDA-B81A-1A60ADBEC8B7" localFKIndex="4FAA739D-0319-9B83-11AD-C7D8925E18E0" name="APLICACAO_NUTRIENTE_APLICACAO_RECURSO_FK">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-04-17 01:41:19 UTC</createdTime>
+<generatorID>00DB6152-FBAC-0E16-CC5C-EF077DD33376</generatorID>
+<ownerDesignName>farmtech_database</ownerDesignName>
+<referredTableLongName>APLICACAO_RECURSO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>776955E7-E4BD-533B-1534-301ECCA47B68</referredTableID>
+<keyObject>BAA79A8F-EBB6-9291-DD6D-7FE64AE4D496</keyObject>
+<referredKeyID>BAA79A8F-EBB6-9291-DD6D-7FE64AE4D496</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cd_aplicacao</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="26B8FC99-4509-AA29-AD0E-98C97A8CB14F" name="NUTRIENTE">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-04-17 00:47:46 UTC</createdTime>
+<ownerDesignName>farmtech_database</ownerDesignName>
+<engineerTo>
+<item key="17626727-FDDC-DB0C-18E0-368CA803BD6D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_nutriente" id="591AE53F-D8DA-6120-384A-7692BBE58DDF">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-04-17 00:47:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador único do nutriente]]></commentInRDBMS>
+<ownerDesignName>farmtech_database</ownerDesignName>
+<engineerTo>
+<item key="17626727-FDDC-DB0C-18E0-368CA803BD6D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome" id="36072E2F-2DFA-F651-7CEA-7991FE9E28C6">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-04-17 00:48:13 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nome do nutriente]]></commentInRDBMS>
+<ownerDesignName>farmtech_database</ownerDesignName>
+<engineerTo>
+<item key="17626727-FDDC-DB0C-18E0-368CA803BD6D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>55</dataTypeSize>
+<ownDataTypeParameters>55,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DBAA8A0A-848F-D33A-863C-9D761EC7354A" name="NUTRIENTE PK">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-04-17 00:48:45 UTC</createdTime>
+<ownerDesignName>farmtech_database</ownerDesignName>
+<engineerTo>
+<item key="17626727-FDDC-DB0C-18E0-368CA803BD6D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>591AE53F-D8DA-6120-384A-7692BBE58DDF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

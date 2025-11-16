@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relação Produtor / Cultura" directorySegmentName="seg_0" id="24F63FB0-DA19-4FD6-A295-7F059F7B191E">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-04-17 00:28:10 UTC</createdTime>
+<ownerDesignName>farmtech_database</ownerDesignName>
+<engineerTo>
+<item key="17626727-FDDC-DB0C-18E0-368CA803BD6D" value="true"/>
+</engineerTo>
+<sourcePk>AEBFAA1C-C8F4-DF57-73A1-A9EE0F50FCF0</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>C8970BC6-5A31-311B-3B5E-0114E5C29618</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>1E40E23D-D63E-7899-E15C-6E9D7D88BD61</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4FD3E5A6-0E1D-C4FC-B4C8-8C295D13163F" name="SENSOR_INSTALADO">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-04-17 01:41:19 UTC</createdTime>
+<generatorID>464E7B5F-1A6A-3E1D-551B-7667A5A37CBB</generatorID>
+<ownerDesignName>farmtech_database</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_sensor_instalado" id="75112D54-0AD3-5F12-D81A-3C1FE243427A">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-04-17 01:41:19 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador único do sensor instalado]]></commentInRDBMS>
+<generatorID>B9DFB383-CDEA-61F7-AE05-DFF702C44640</generatorID>
+<ownerDesignName>farmtech_database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CULTURA_cd_cultura" id="EB1A8069-1BED-3E95-EEA9-5AC602C9256E">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-04-17 01:41:19 UTC</createdTime>
+<generatorID>419094E6-BD1C-56F0-7A8B-A1F8BBBB1638</generatorID>
+<ownerDesignName>farmtech_database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="47220B2D-70E7-BFED-1AD2-47B5FDBFA531" referredColumn="BD09C47F-1A9F-E25C-A4C2-92C52D8C6A26"/>
+</associations>
+</Column>
+<Column name="SENSOR_cd_sensor" id="6128F65B-AFA5-3C39-AEB7-DB9C7CEF0992">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-04-17 01:41:19 UTC</createdTime>
+<generatorID>E0E02A81-106A-3976-CD32-2CFBE8555134</generatorID>
+<ownerDesignName>farmtech_database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9CE7F21D-430A-CC3C-7B26-BC6E2712CEEA" referredColumn="5A07E771-9DBD-3885-BBFD-E49DA0465ADF"/>
+</associations>
+</Column>
+<Column name="data_instalacao" id="58A1904E-2AF2-7CC5-BFAE-9B9A3E45CC85">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-04-17 01:41:19 UTC</createdTime>
+<commentInRDBMS><![CDATA[Data da Instalação]]></commentInRDBMS>
+<generatorID>252833D5-A4FC-3713-4838-EAFF10747B23</generatorID>
+<ownerDesignName>farmtech_database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="ECEFE927-CAD5-D7C0-1B34-EB22731738CB" name="SENSOR_INSTALADO_PK">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-04-17 01:41:19 UTC</createdTime>
+<generatorID>2629E505-1874-3EE8-E4C1-C9B8069A1069</generatorID>
+<ownerDesignName>farmtech_database</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="75112D54-0AD3-5F12-D81A-3C1FE243427A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="30CB0F98-51FC-7820-64D0-B88F0BE33127" name="SENSOR_INSTALADO_CULTURA_FK">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-04-17 01:41:19 UTC</createdTime>
+<generatorID>F3A14E93-1141-DA45-16C5-30BC7EB16166</generatorID>
+<ownerDesignName>farmtech_database</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EB1A8069-1BED-3E95-EEA9-5AC602C9256E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="74581CC9-68AD-B493-A5EE-68DF5F43876C" name="SENSOR_INSTALADO_SENSOR_FK">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-04-17 01:41:19 UTC</createdTime>
+<generatorID>C511453C-C47D-A32C-6465-6E9D64BDE3B3</generatorID>
+<ownerDesignName>farmtech_database</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6128F65B-AFA5-3C39-AEB7-DB9C7CEF0992"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,24 @@
+# Configurações AWS SNS
+# Copie este arquivo para .env e preencha com suas credenciais
+
+AWS_ACCESS_KEY_ID=sua_chave_aqui
+AWS_SECRET_ACCESS_KEY=sua_chave_secreta_aqui
+AWS_REGION=sa-east-1
+SNS_TOPIC_ARN=arn:aws:sns:sa-east-1:123456789:alertas-fazenda
+
+# Configurações de Alertas
+UMIDADE_MIN=30.0
+PH_MIN=6.0
+PH_MAX=7.5
+EMAIL_ALERTAS=admin@fazenda.com
+TELEFONE_ALERTAS=+5511999999999
+
+# Configurações do Banco de Dados
+DB_HOST=192.185.217.47
+DB_USER=bsconsul_fiap
+DB_PASSWORD=Padr@ao321
+DB_NAME=bsconsul_fiap
+
+# Configurações da API
+API_URL=http://localhost:5000
+

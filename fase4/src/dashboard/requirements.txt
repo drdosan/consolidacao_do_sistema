@@ -1,0 +1,7 @@
+streamlit
+pymysql
+pandas
+scikit-learn
+joblib
+SQLAlchemy
+streamlit-autorefresh

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relação Cultura / SensorInstalado" directorySegmentName="seg_0" id="F3A14E93-1141-DA45-16C5-30BC7EB16166">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-04-17 00:43:32 UTC</createdTime>
+<ownerDesignName>farmtech_database</ownerDesignName>
+<engineerTo>
+<item key="17626727-FDDC-DB0C-18E0-368CA803BD6D" value="true"/>
+</engineerTo>
+<sourcePk>64D352F5-8DDF-0031-1B1B-313208EFF2E7</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>1E40E23D-D63E-7899-E15C-6E9D7D88BD61</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>464E7B5F-1A6A-3E1D-551B-7667A5A37CBB</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

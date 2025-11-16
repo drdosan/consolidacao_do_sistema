@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="080FA278-B485-E62F-D276-06083A7E7775" name="SENSOR">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-04-17 01:41:19 UTC</createdTime>
+<generatorID>F373D3B8-D1AE-45E7-67AD-2E1F666FAF2B</generatorID>
+<ownerDesignName>farmtech_database</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_sensor" id="5A07E771-9DBD-3885-BBFD-E49DA0465ADF">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-04-17 01:41:19 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador único do sensor]]></commentInRDBMS>
+<generatorID>7DC0F855-D4AF-A568-C3CD-1F44E6BA814A</generatorID>
+<ownerDesignName>farmtech_database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo" id="1CBD77E6-879D-0902-6CB1-DE19DD33DF06">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-04-17 01:41:19 UTC</createdTime>
+<generatorID>40742AF2-96F0-3418-850D-DFC6D0EF414A</generatorID>
+<ownerDesignName>farmtech_database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome" id="DA422351-7C91-B018-4EB3-E6FA8D0968F2">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-04-17 01:41:19 UTC</createdTime>
+<commentInRDBMS><![CDATA[nome do sensor]]></commentInRDBMS>
+<generatorID>611C3C37-F589-ECAA-07E3-2C05E175B527</generatorID>
+<ownerDesignName>farmtech_database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>55</dataTypeSize>
+<ownDataTypeParameters>55,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="761EF452-A369-BC7E-6DDA-CD61A30EC1F5" name="SENSOR_PK">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-04-17 01:41:19 UTC</createdTime>
+<generatorID>B66BDFEB-D416-1500-EA60-EA235220F8E9</generatorID>
+<ownerDesignName>farmtech_database</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5A07E771-9DBD-3885-BBFD-E49DA0465ADF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E548FD1D-CA89-0DCB-CF01-9CF15614AD7A" name="CHK_TIPO_SENSORv2">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-04-17 01:52:52 UTC</createdTime>
+<ownerDesignName>farmtech_database</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1CBD77E6-879D-0902-6CB1-DE19DD33DF06"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

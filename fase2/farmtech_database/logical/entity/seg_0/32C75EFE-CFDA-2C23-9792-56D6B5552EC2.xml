@@ -1,0 +1,129 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="32C75EFE-CFDA-2C23-9792-56D6B5552EC2" name="LEITURA_SENSOR">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-04-17 00:34:31 UTC</createdTime>
+<ownerDesignName>farmtech_database</ownerDesignName>
+<engineerTo>
+<item key="17626727-FDDC-DB0C-18E0-368CA803BD6D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_leitura" id="40C12E02-D958-3493-49D7-05C2FF7C6DCF">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-04-17 00:34:42 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador único da leitura]]></commentInRDBMS>
+<ownerDesignName>farmtech_database</ownerDesignName>
+<engineerTo>
+<item key="17626727-FDDC-DB0C-18E0-368CA803BD6D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_sensor_instalado" id="D372E571-C0C2-482E-4D5B-C408E22C80F7">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-04-17 00:45:33 UTC</createdTime>
+<generatorID>830D0FBA-726E-1F90-A456-0A439070C69A</generatorID>
+<ownerDesignName>farmtech_database</ownerDesignName>
+<engineerTo>
+<item key="17626727-FDDC-DB0C-18E0-368CA803BD6D" value="true"/>
+</engineerTo>
+<referedAttribute>B9DFB383-CDEA-61F7-AE05-DFF702C44640</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data_hora" id="744FC6E1-027A-3D35-9F78-C3D33F66D345">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-04-17 00:34:42 UTC</createdTime>
+<commentInRDBMS><![CDATA[Data e hora da Leitura]]></commentInRDBMS>
+<ownerDesignName>farmtech_database</ownerDesignName>
+<engineerTo>
+<item key="17626727-FDDC-DB0C-18E0-368CA803BD6D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="valor_umidade" id="F531A177-B423-4AE9-5C1F-8C6BFF7D208D">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-04-17 00:34:42 UTC</createdTime>
+<commentInRDBMS><![CDATA[Valor da Umidade da leitura]]></commentInRDBMS>
+<ownerDesignName>farmtech_database</ownerDesignName>
+<engineerTo>
+<item key="17626727-FDDC-DB0C-18E0-368CA803BD6D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="valor_ph" id="450107DD-717F-8A23-4765-50ED92AFDC0D">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-04-17 00:34:42 UTC</createdTime>
+<commentInRDBMS><![CDATA[Valor do PH da leitura]]></commentInRDBMS>
+<ownerDesignName>farmtech_database</ownerDesignName>
+<engineerTo>
+<item key="17626727-FDDC-DB0C-18E0-368CA803BD6D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="valor_fosforo" id="E915F71B-71F2-75FD-B760-6C1D17F4892B">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-04-17 00:34:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[Valor do fósforo da leitura]]></commentInRDBMS>
+<ownerDesignName>farmtech_database</ownerDesignName>
+<engineerTo>
+<item key="17626727-FDDC-DB0C-18E0-368CA803BD6D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="valor_potassio" id="9C9E271D-EECC-7B4F-1C8F-E38755569EBD">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-04-17 00:34:45 UTC</createdTime>
+<commentInRDBMS><![CDATA[Valor do potássio da leitura]]></commentInRDBMS>
+<ownerDesignName>farmtech_database</ownerDesignName>
+<engineerTo>
+<item key="17626727-FDDC-DB0C-18E0-368CA803BD6D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="33BA9644-FE5F-E085-5B10-B817D5C7CA79" name="LEITURA_SENSOR PK">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-04-17 00:34:55 UTC</createdTime>
+<ownerDesignName>farmtech_database</ownerDesignName>
+<engineerTo>
+<item key="17626727-FDDC-DB0C-18E0-368CA803BD6D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>40C12E02-D958-3493-49D7-05C2FF7C6DCF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

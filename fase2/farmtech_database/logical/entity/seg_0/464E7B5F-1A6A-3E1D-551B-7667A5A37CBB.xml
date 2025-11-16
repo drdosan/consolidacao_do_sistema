@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="464E7B5F-1A6A-3E1D-551B-7667A5A37CBB" name="SENSOR_INSTALADO">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-04-17 00:30:55 UTC</createdTime>
+<ownerDesignName>farmtech_database</ownerDesignName>
+<engineerTo>
+<item key="17626727-FDDC-DB0C-18E0-368CA803BD6D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_sensor_instalado" id="B9DFB383-CDEA-61F7-AE05-DFF702C44640">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-04-17 00:31:03 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador único do sensor instalado]]></commentInRDBMS>
+<ownerDesignName>farmtech_database</ownerDesignName>
+<engineerTo>
+<item key="17626727-FDDC-DB0C-18E0-368CA803BD6D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_cultura" id="419094E6-BD1C-56F0-7A8B-A1F8BBBB1638">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-04-17 00:43:32 UTC</createdTime>
+<generatorID>F3A14E93-1141-DA45-16C5-30BC7EB16166</generatorID>
+<ownerDesignName>farmtech_database</ownerDesignName>
+<engineerTo>
+<item key="17626727-FDDC-DB0C-18E0-368CA803BD6D" value="true"/>
+</engineerTo>
+<referedAttribute>2E1D1837-D642-3994-BAF2-39470A91BC8E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_sensor" id="E0E02A81-106A-3976-CD32-2CFBE8555134">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-04-17 00:44:11 UTC</createdTime>
+<generatorID>C511453C-C47D-A32C-6465-6E9D64BDE3B3</generatorID>
+<ownerDesignName>farmtech_database</ownerDesignName>
+<engineerTo>
+<item key="17626727-FDDC-DB0C-18E0-368CA803BD6D" value="true"/>
+</engineerTo>
+<referedAttribute>7DC0F855-D4AF-A568-C3CD-1F44E6BA814A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data_instalacao" id="252833D5-A4FC-3713-4838-EAFF10747B23">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-04-17 00:31:03 UTC</createdTime>
+<commentInRDBMS><![CDATA[Data da Instalação]]></commentInRDBMS>
+<ownerDesignName>farmtech_database</ownerDesignName>
+<engineerTo>
+<item key="17626727-FDDC-DB0C-18E0-368CA803BD6D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2629E505-1874-3EE8-E4C1-C9B8069A1069" name="SENSOR_INSTALADO PK">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-04-17 00:31:19 UTC</createdTime>
+<ownerDesignName>farmtech_database</ownerDesignName>
+<engineerTo>
+<item key="17626727-FDDC-DB0C-18E0-368CA803BD6D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B9DFB383-CDEA-61F7-AE05-DFF702C44640</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

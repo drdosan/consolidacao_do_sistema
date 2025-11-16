@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="776955E7-E4BD-533B-1534-301ECCA47B68" name="APLICACAO_RECURSO">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-04-17 01:41:19 UTC</createdTime>
+<generatorID>7CE45056-2B17-951F-D88F-9270157BD8F8</generatorID>
+<ownerDesignName>farmtech_database</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_aplicacao" id="9560BD77-608D-3074-54BC-BA6C0FCB5C03">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-04-17 01:41:19 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador único da aplicação]]></commentInRDBMS>
+<generatorID>D88625EB-7446-9461-62F4-17E803C35C7E</generatorID>
+<ownerDesignName>farmtech_database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CULTURA_cd_cultura" id="72FA08C2-5430-03BB-1287-FA3E57C1BDFF">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-04-17 01:41:19 UTC</createdTime>
+<generatorID>F95C29E2-45F6-5CDA-ED94-70078E29F0C1</generatorID>
+<ownerDesignName>farmtech_database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="431D0ADA-2EF2-4253-9674-EF764D4AD0DB" referredColumn="BD09C47F-1A9F-E25C-A4C2-92C52D8C6A26"/>
+</associations>
+</Column>
+<Column name="data_hora" id="AD0FB41D-8DD0-697E-5D06-0CE7DA4A397F">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-04-17 01:41:19 UTC</createdTime>
+<commentInRDBMS><![CDATA[Data e hora da aplicação]]></commentInRDBMS>
+<generatorID>85213086-AA4F-6F49-E3A7-26BA896B064A</generatorID>
+<ownerDesignName>farmtech_database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="qtd_agua" id="B368658F-DFFD-7257-C494-988077204E36">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-04-17 01:41:19 UTC</createdTime>
+<commentInRDBMS><![CDATA[Quantidade de água da aplicação]]></commentInRDBMS>
+<generatorID>701F0E36-155F-3993-D495-CD50F22E6860</generatorID>
+<ownerDesignName>farmtech_database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BAA79A8F-EBB6-9291-DD6D-7FE64AE4D496" name="APLICACAO_RECURSO_PK">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-04-17 01:41:19 UTC</createdTime>
+<generatorID>0BED43E3-313D-FD00-3651-EC582ED614DA</generatorID>
+<ownerDesignName>farmtech_database</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9560BD77-608D-3074-54BC-BA6C0FCB5C03"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="67716D0B-640F-0149-0934-7A8B554BDEAD" name="APLICACAO_RECURSO_CULTURA_FK">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-04-17 01:41:19 UTC</createdTime>
+<generatorID>031FEE42-D4BB-CD6A-7E2A-1959D8545B35</generatorID>
+<ownerDesignName>farmtech_database</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="72FA08C2-5430-03BB-1287-FA3E57C1BDFF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

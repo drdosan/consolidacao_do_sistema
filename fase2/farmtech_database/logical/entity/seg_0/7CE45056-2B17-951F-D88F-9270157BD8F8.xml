@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7CE45056-2B17-951F-D88F-9270157BD8F8" name="APLICACAO_RECURSO">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-04-17 00:39:33 UTC</createdTime>
+<ownerDesignName>farmtech_database</ownerDesignName>
+<engineerTo>
+<item key="17626727-FDDC-DB0C-18E0-368CA803BD6D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_aplicacao" id="D88625EB-7446-9461-62F4-17E803C35C7E">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-04-17 00:39:42 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador único da aplicação]]></commentInRDBMS>
+<ownerDesignName>farmtech_database</ownerDesignName>
+<engineerTo>
+<item key="17626727-FDDC-DB0C-18E0-368CA803BD6D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_cultura" id="F95C29E2-45F6-5CDA-ED94-70078E29F0C1">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-04-17 00:45:08 UTC</createdTime>
+<generatorID>031FEE42-D4BB-CD6A-7E2A-1959D8545B35</generatorID>
+<ownerDesignName>farmtech_database</ownerDesignName>
+<engineerTo>
+<item key="17626727-FDDC-DB0C-18E0-368CA803BD6D" value="true"/>
+</engineerTo>
+<referedAttribute>2E1D1837-D642-3994-BAF2-39470A91BC8E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data_hora" id="85213086-AA4F-6F49-E3A7-26BA896B064A">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-04-17 00:39:42 UTC</createdTime>
+<commentInRDBMS><![CDATA[Data e hora da aplicação]]></commentInRDBMS>
+<ownerDesignName>farmtech_database</ownerDesignName>
+<engineerTo>
+<item key="17626727-FDDC-DB0C-18E0-368CA803BD6D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="qtd_agua" id="701F0E36-155F-3993-D495-CD50F22E6860">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-04-17 00:39:42 UTC</createdTime>
+<commentInRDBMS><![CDATA[Quantidade de água da aplicação]]></commentInRDBMS>
+<ownerDesignName>farmtech_database</ownerDesignName>
+<engineerTo>
+<item key="17626727-FDDC-DB0C-18E0-368CA803BD6D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0BED43E3-313D-FD00-3651-EC582ED614DA" name="APLICACAO_RECURSO PK">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-04-17 00:39:54 UTC</createdTime>
+<ownerDesignName>farmtech_database</ownerDesignName>
+<engineerTo>
+<item key="17626727-FDDC-DB0C-18E0-368CA803BD6D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D88625EB-7446-9461-62F4-17E803C35C7E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
