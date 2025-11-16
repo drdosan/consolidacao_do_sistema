@@ -10,7 +10,7 @@
 
 ### ▶️ Vídeo de Apresentação Final (Fase 7)
 
-[Link do vídeo será adicionado aqui]
+[https://youtu.be/-6ii1At-Q8o](https://youtu.be/-6ii1At-Q8o)
 
 ---
 
