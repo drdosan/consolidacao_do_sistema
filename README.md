@@ -204,7 +204,7 @@ teste_facul/
 - Monitoramento automático
 - Documentação completa
 
-📁 [Ver Fase 7](./fase7/README.md) | 🎥 [Vídeo Fase 7](#) *(a ser adicionado)*
+📁 [Ver Fase 7](./fase7/README.md) | 🎥 [https://youtu.be/-6ii1At-Q8o](https://youtu.be/-6ii1At-Q8o)*
 
 ---
 
