@@ -378,7 +378,6 @@ Cada fase possui sua própria documentação detalhada:
 
 - [Guia Rápido Fase 7](./fase7/docs/GUIA_RAPIDO.md)
 - [Configuração AWS SNS](./fase7/docs/AWS_SNS_SETUP.md)
-- [Checklist de Entrega](./fase7/ENTREGA.md)
 
 ---
 
