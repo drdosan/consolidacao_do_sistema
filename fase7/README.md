@@ -315,7 +315,7 @@ O sistema de alertas AWS SNS envia notificações quando:
 
 ## 🎥 Vídeo de Apresentação
 
-**Link do vídeo:** [A ser adicionado]
+**Link do vídeo:** [https://youtu.be/-6ii1At-Q8o](https://youtu.be/-6ii1At-Q8o)
 
 O vídeo apresenta:
 - Todas as funcionalidades das Fases 1 a 6
