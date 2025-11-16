@@ -327,11 +327,10 @@ O vídeo apresenta:
 
 ## 🔗 Links Importantes
 
-- **GitHub:** [Link do repositório]
+- **GitHub:** https://github.com/drdosan/consolidacao_do_sistema 
 - **API Swagger:** http://localhost:5000/apidocs
 - **Dashboard:** http://localhost:8501
-- **Calculadora AWS:** [Link da Fase 5]
-
+- **Calculadora AWS:** https://calculator.aws/#/estimate?id=ce53bf9cd6f5d5c5465fb6329e28c118fa8d0ca0 
 ---
 
 ## 🛠️ Tecnologias Utilizadas
@@ -376,17 +375,3 @@ O vídeo apresenta:
 <a href="https://github.com/agodoi/template">MODELO GIT FIAP</a> por <a href="https://fiap.com.br">FIAP</a> está licenciado sob 
 <a href="http://creativecommons.org/licenses/by/4.0/" target="_blank">Attribution 4.0 International</a>.
 </p>
-
----
-
-## 📞 Suporte
-
-Para dúvidas ou problemas:
-- Verifique a documentação de cada fase
-- Consulte os comentários no código
-- Entre em contato com o tutor: Leonardo Ruiz Orabona (GitHub: leoruiz197)
-
----
-
-**Desenvolvido com ❤️ para FIAP**
-
