@@ -347,19 +347,6 @@ O vídeo apresenta:
 
 ---
 
-## 📋 Checklist de Entrega
-
-- [x] Dashboard integrado com todas as fases
-- [x] Sistema de alertas AWS SNS implementado
-- [x] Documentação completa no README
-- [x] Scripts de integração criados
-- [x] Requirements.txt com todas as dependências
-- [ ] Vídeo de apresentação (até 10 minutos)
-- [ ] Repositório GitHub atualizado
-- [ ] Link do GitHub enviado via portal FIAP
-
----
-
 ## 🗃️ Histórico de Versões
 
 | Versão | Data | Descrição |
