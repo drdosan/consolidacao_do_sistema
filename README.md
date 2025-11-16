@@ -259,7 +259,7 @@ teste_facul/
 
 1. **Clone o repositório:**
    ```bash
-   git clone https://github.com/drdosan/consolidacao_do_sistema/
+   git clone https://github.com/drdosan/consolidacao_do_sistema.git
    cd consolidacao_do_sistema
    ```
 
